@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Advice generator app</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        position: absolute;
+        left: 15px;
+        bottom: 0;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-Manrope h-screen bg-Dark_Blue">
+    <main
+      class="bg-Dark_Grayish_Blue flex justify-center text-center flex-col w-[90%] md:w-[400px] m-auto relative p-7 rounded-lg top-[30%]"
+    >
+      <h1 class="text-Neon_Green uppercase tracking-[.25em]">Advice #<span class="id"></span></h1>
+      <p class="h-min MyAdvice my-5 text-center text-Light_Cyan text-xl"></p>
+      <img class="mb-8 md:block hidden" src="./images/pattern-divider-desktop.svg" alt="" />
+      <img class="mb-8 md:hidden" src="./images/pattern-divider-mobile.svg" alt="" />
+      <div
+        class="bg-Neon_Green flex justify-center items-center rounded-full w-12 h-12 absolute -bottom-[24px] left-1/2 translate-x-[-50%]"
+      >
+        <img class="w-fit cursor-pointer click" src="./images/icon-dice.svg" alt="" />
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="./dist/Ts.js"></script>
+  </body>
+</html>
